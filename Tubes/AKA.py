@@ -5,7 +5,7 @@ import sys
 # Menambah limit rekursi untuk pengerjaan pangkat besar
 sys.setrecursionlimit(20000)
 
-# --- 1. DEFINISI ALGORITMA ---
+#DEFINISI ALGORITMA 
 
 def power_iterative(a, n):
     """Menghitung pangkat dengan perulangan (O(n))"""
@@ -25,7 +25,7 @@ def power_recursive_dc(a, n):
     else:
         return a * temp * temp
 
-# --- 2. PROGRAM UTAMA ---
+#PROGRAM UTAMA 
 
 def main():
     print("=== Tubes AKA: Analisis Perbandingan Algoritma Pemangkatan ===")
@@ -53,7 +53,7 @@ def main():
                 print("Silakan masukkan angka positif.")
                 continue
             
-            # --- Pengukuran Waktu ---
+            # Pengukuran Waktu 
             # Iteratif O(n)
             start_i = time.perf_counter()
             power_iterative(a, n)
@@ -64,7 +64,7 @@ def main():
             power_recursive_dc(a, n)
             t_dc = time.perf_counter() - start_dc
             
-            # --- Simpan dan Urutkan Data ---
+            # Simpan dan Urutkan Data
             # Data harus diurutkan berdasarkan n agar garis grafik tidak berantakan
             raw_data = list(zip(n_history, iter_history, dc_history))
             raw_data.append((n, t_i, t_dc))
@@ -81,7 +81,7 @@ def main():
             print(f"- Iteratif: {t_i:.8f} detik")
             print(f"- Rekursif D&C: {t_dc:.8f} detik")
             
-            # --- Menampilkan Grafik ---
+            # Menampilkan Grafik 
             plt.figure(figsize=(10, 6))
             plt.plot(n_history, iter_history, marker='s', label='Iteratif O(n)', color='red', linewidth=2)
             plt.plot(n_history, dc_history, marker='o', label='Recursive D&C O(log n)', color='blue', linewidth=2)
@@ -99,4 +99,5 @@ def main():
             print("Error: Harap masukkan angka bulat (integer) atau ketik 'exit'.")
 
 if __name__ == "__main__":
+
     main()
