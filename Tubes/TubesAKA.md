@@ -92,6 +92,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 ### Output
 ##### a=2 n=1000
 ![Screenshot Output 1](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000.png)
@@ -103,8 +104,12 @@ if __name__ == "__main__":
 ![Screenshot Output 3](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000.png)
 
 ##### a=2 n=1000, 3000, 5000, 7000
-![Screenshot Output 3](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000%2C%207000.png)
+![Screenshot Output 4](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000%2C%207000.png)
 
 ##### a=2 n=1000, 3000, 5000, 7000, 10000
 
-![Screenshot Output 3](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000%2C%207000%2C%2010000.png)
+![Screenshot Output 5](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000%2C%207000%2C%2010000.png)
+
+
+### Poster
+!![Screenshot Output 4](https://www.canva.com/design/DAG8P-wYiw8/Kof9cJ8As4fAxCDxQEmNEQ/edit)
