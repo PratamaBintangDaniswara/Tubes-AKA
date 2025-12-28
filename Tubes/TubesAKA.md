@@ -1,4 +1,4 @@
-# <h1 align="center">Analisis perbandingan algoritma Pemangkatan dengan metode iteratif D&C vs Rekursif D&C</h1>
+# <h1 align="center">Analisis perbandingan Algoritma Pemangkatan dengan metode Iteratif D&C vs Rekursif D&C</h1>
 <p align="center">Pratama Bintang Daniswara - 103112400051</p>
 <p align="center">Abid Fadilah Mustofa - 103112400046</p>
 <p align="center">Muhammad Fatham Mubina - 103112430188</p>
@@ -113,4 +113,5 @@ if __name__ == "__main__":
 
 ### Poster
 !![Poster]()
+
 
