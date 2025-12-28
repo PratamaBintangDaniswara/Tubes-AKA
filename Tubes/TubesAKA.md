@@ -112,4 +112,5 @@ if __name__ == "__main__":
 ![Screenshot Output 5](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/a%3D2%20n%3D1000%2C%203000%2C%205000%2C%207000%2C%2010000.png)
 
 ### Poster
-![Poster]()
+![Poster](https://github.com/PratamaBintangDaniswara/Tubes-AKA/blob/main/Tubes/Poster%20Tubes%20AKA.png)
+
